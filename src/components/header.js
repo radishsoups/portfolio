@@ -5,8 +5,8 @@ import logo from '../assets/logo.png'
 const Header = () => {
     return (
         <div>
-            <header className="p-3 mx-[12em] my-[2em] flex flex-row content-center justify-center">
-                <Link to="/"><img src={logo} className="w-1/2 h-auto" alt="black circle"></img></Link>
+            <header className="min-w-screen p-3 my-[2em] mx-[10%] flex flex-row content-center items-center justify-center">
+                <Link to="/"><h1 className="flex row content-center w-full mt-2 ml-[2em] font-extrabold">claire kim</h1></Link>
                 <nav className="flex row content-center ml-auto mt-2 font-bold">
                     <Link to="/work" className="ml-2 mr-5"><p>work</p></Link>
                     <Link to="/about" className="ml-2 mr-5"><p>about</p></Link>

@@ -3,7 +3,7 @@ import Header from "../components/header";
 
 const Contact = () => {
     return (
-        <div>
+        <div className="content-center m-6">
             <Header />
         </div >
     );

@@ -3,7 +3,7 @@ import Header from "../components/header";
 
 const Work = () => {
     return (
-        <div>
+        <div className="content-center m-6">
             <Header />
         </div >
     );

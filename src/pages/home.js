@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
-        <div>
+        <div className="content-center m-6">
             <Header />
-            <div className="flex flex-row content-center justify-center items-center">
+            <div className="flex flex-row content-center justify-center items-center m-auto">
                 <div>
                     <h1 className="mt-[1.3em] font-bold text-sage text-7xl">안녕하세요.</h1>
                     <h1 className="font mt-5 font-bold text-sage text-7xl">hello !</h1>
